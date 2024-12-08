@@ -29,14 +29,14 @@ class GenderPreference extends StatelessWidget {
             gender: Text(
               TText.female,
               style: TextStyle(
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.w400,
                   fontSize: 16.0,
                   color: TColors.primary),
             ),
           ),
           Text(
             '|',
-            style: TextStyle(fontSize: 40, color: TColors.greyPrimary),
+            style: TextStyle(fontSize: 40, color: TColors.greyPrimary, fontWeight: FontWeight.w200,),
           ),
           GenderTile(
             icon: Icon(
@@ -45,16 +45,16 @@ class GenderPreference extends StatelessWidget {
               color: TColors.greyPrimary,
             ),
             gender: Text(
-              TText.female,
+              TText.male,
               style: TextStyle(
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.w400,
                   fontSize: 16.0,
                   color: TColors.greyPrimary),
             ),
           ),
           Text(
             '|',
-            style: TextStyle(fontSize: 40, color: TColors.greyPrimary),
+            style: TextStyle(fontSize: 40, color: TColors.greyPrimary, fontWeight: FontWeight.w200,),
           ),
           GenderTile(
             icon: Icon(
@@ -63,16 +63,16 @@ class GenderPreference extends StatelessWidget {
               color: TColors.greyPrimary,
             ),
             gender: Text(
-              TText.female,
+              TText.trans,
               style: TextStyle(
-                  fontWeight: FontWeight.bold,
+                 fontWeight: FontWeight.w400,
                   fontSize: 16.0,
                   color: TColors.greyPrimary),
             ),
           ),
           Text(
             '|',
-            style: TextStyle(fontSize: 40, color: TColors.greyPrimary),
+            style: TextStyle(fontSize: 40, color: TColors.greyPrimary, fontWeight: FontWeight.w200,),
           ),
           GenderTile(
             icon: Icon(
@@ -81,9 +81,9 @@ class GenderPreference extends StatelessWidget {
               color: TColors.greyPrimary,
             ),
             gender: Text(
-              TText.female,
+              TText.gay,
               style: TextStyle(
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.w400,
                   fontSize: 16.0,
                   color: TColors.greyPrimary),
             ),

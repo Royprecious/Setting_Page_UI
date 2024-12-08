@@ -56,7 +56,7 @@ class SettingPage extends StatelessWidget {
               child: Column(
                 children: [
                   const SizedBox(
-                    height: 18,
+                    height: 18.0,
                   ),
                   Column(
                     children: [
